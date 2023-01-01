@@ -2,24 +2,28 @@
 
 ### Technologies
 
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Yarn](https://yarnpkg.com/)
+👉 [Vite](https://vitejs.dev/)
+👉 [React](https://reactjs.org/)
+👉 [TypeScript](https://www.typescriptlang.org/)
+👉 [ESLint](https://eslint.org/)
+👉 [Prettier](https://prettier.io/)
+👉 [Yarn](https://yarnpkg.com/)
+👉 [Husky](https://typicode.github.io/husky/#/)
+👉 [Lint Staged](https://github.com/okonet/lint-staged#readme)
+👉 [Commitlint](https://commitlint.js.org)
+👉 [GitHub Actions](https://docs.github.com/en/actions)
 
 ### Editor
 
-- [Visual Studio Code](https://code.visualstudio.com/)
+👉 [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Node.js Version
 
-- [Node.js: 16.18.1](https://nodejs.org/en/)
+👉 [Node.js: 16.18.1](https://nodejs.org/en/)
 
 ### Package Manager
 
-- [Yarn: 3.3.1](https://yarnpkg.com/)
+👉 [Yarn: 3.3.1](https://yarnpkg.com/)
 
 ---
 
@@ -69,12 +73,6 @@ yarn format
 
 ---
 
-### Git Hooks
-
-- [Husky](https://typicode.github.io/husky/#/)
-- [Lint Staged](https://github.com/okonet/lint-staged#readme)
-- [Commitlint](https://commitlint.js.org/#/)
-
 ### Git Commit Message
 
 The commit message should be structured as follows:
@@ -86,17 +84,17 @@ git commit -m "feat: added a button which closes the modal"
 
 ### Git Commit Message Types
 
-- **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-- **chore**: Other changes that don't modify src or test files
-- **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-- **docs**: Documentation only changes
-- **feat**: A new feature
-- **fix**: A bug fix
-- **perf**: A code change that improves performance
-- **refactor**: A code change that neither fixes a bug nor adds a feature
-- **revert**: Reverts a previous commit
-- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- **test**: Adding missing tests or correcting existing tests
+👉 **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+👉 **chore**: Other changes that don't modify src or test files
+👉 **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+👉 **docs**: Documentation only changes
+👉 **feat**: A new feature
+👉 **fix**: A bug fix
+👉 **perf**: A code change that improves performance
+👉 **refactor**: A code change that neither fixes a bug nor adds a feature
+👉 **revert**: Reverts a previous commit
+👉 **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+👉 **test**: Adding missing tests or correcting existing tests
 
 ### License
 
