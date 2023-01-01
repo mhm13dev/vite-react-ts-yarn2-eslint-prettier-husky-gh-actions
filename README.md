@@ -12,7 +12,7 @@
 
 👉 [Prettier](https://prettier.io/)
 
-👉 [Yarn](https://yarnpkg.com/)
+👉 [Yarn 2+](https://yarnpkg.com/)
 
 👉 [Husky](https://typicode.github.io/husky/#/)
 
