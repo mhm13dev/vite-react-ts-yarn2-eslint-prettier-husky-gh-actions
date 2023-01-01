@@ -3,14 +3,23 @@
 ### Technologies
 
 👉 [Vite](https://vitejs.dev/)
+
 👉 [React](https://reactjs.org/)
+
 👉 [TypeScript](https://www.typescriptlang.org/)
+
 👉 [ESLint](https://eslint.org/)
+
 👉 [Prettier](https://prettier.io/)
+
 👉 [Yarn](https://yarnpkg.com/)
+
 👉 [Husky](https://typicode.github.io/husky/#/)
+
 👉 [Lint Staged](https://github.com/okonet/lint-staged#readme)
+
 👉 [Commitlint](https://commitlint.js.org)
+
 👉 [GitHub Actions](https://docs.github.com/en/actions)
 
 ### Editor
@@ -85,15 +94,24 @@ git commit -m "feat: added a button which closes the modal"
 ### Git Commit Message Types
 
 👉 **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+
 👉 **chore**: Other changes that don't modify src or test files
+
 👉 **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
 👉 **docs**: Documentation only changes
+
 👉 **feat**: A new feature
+
 👉 **fix**: A bug fix
+
 👉 **perf**: A code change that improves performance
+
 👉 **refactor**: A code change that neither fixes a bug nor adds a feature
+
 👉 **revert**: Reverts a previous commit
+
 👉 **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+
 👉 **test**: Adding missing tests or correcting existing tests
 
 ### License
