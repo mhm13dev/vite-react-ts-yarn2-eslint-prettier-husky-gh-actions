@@ -98,6 +98,7 @@ git commit -m "feat: added a button which closes the modal"
 👉 **chore**: Other changes that don't modify src or test files
 
 👉 **ci**: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+
 👉 **docs**: Documentation only changes
 
 👉 **feat**: A new feature
