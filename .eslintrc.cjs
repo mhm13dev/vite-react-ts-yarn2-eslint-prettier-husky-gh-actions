@@ -14,6 +14,11 @@ module.exports = {
   ],
   plugins: ["@typescript-eslint", "react", "jsx-a11y", "import"],
   parser: "@typescript-eslint/parser",
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   rules: {
     // Add your own rules here to override ones from the extended configs.
     "react/jsx-uses-react": 2,
