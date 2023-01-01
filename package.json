@@ -7,14 +7,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "yarn run eslint . --ext .ts,.tsx",
+    "lint": "yarn run eslint .",
     "format": "yarn run prettier --write .",
     "postinstall": "yarn husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,cjs,mjs}": [
       "yarn run format",
-      "yarn run lint"
+      "yarn run lint --fix"
     ]
   },
   "dependencies": {
