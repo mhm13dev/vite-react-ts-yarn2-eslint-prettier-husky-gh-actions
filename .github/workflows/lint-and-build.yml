@@ -1,0 +1,36 @@
+name: Lint & Build
+run-name: ${{ github.actor }} has triggered GitHub Actions 🚀
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - name: Setup Yarn 2
+        run: |
+          yarn set version berry
+      - name: Install dependencies
+        run: |
+          yarn install
+      - name: Lint
+        run: |
+          yarn lint
+      - name: Build
+        run: |
+          yarn build
+      - run: echo "🍏 This job's status is ${{ job.status }}."
