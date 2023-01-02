@@ -23,6 +23,9 @@ export const generatedNumberSlice = createSlice({
   initialState,
   reducers: {
     // Normal reducers not needed for this example
+    setGeneratedNumber: (state: GeneratedNumberState, action: PayloadAction<number>) => {
+      state.generatedNumber = action.payload;
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -36,3 +39,5 @@ export const generatedNumberSlice = createSlice({
       });
   },
 });
+
+export const { setGeneratedNumber } = generatedNumberSlice.actions;

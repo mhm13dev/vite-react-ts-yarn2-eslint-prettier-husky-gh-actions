@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import Nav from "@/components/nav";
 import { useAppDispatch, useAppSelector } from "@/hooks/redux-toolkit";
-import { generateNewNumber } from "@/store/slices/generated-number";
+import { generateNewNumber, setGeneratedNumber } from "@/store/slices/generated-number";
+import Nav from "@/components/nav";
 
 import HomeSkeleton from "./skeleton";
 
@@ -14,6 +14,11 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     dispatch(generateNewNumber());
+
+    return () => {
+      setInitialLoadCompleted(false);
+      dispatch(setGeneratedNumber(0));
+    };
   }, []);
 
   useEffect(() => {
