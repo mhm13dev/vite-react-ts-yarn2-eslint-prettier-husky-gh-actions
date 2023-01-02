@@ -6,8 +6,6 @@
 
 👉 [React](https://reactjs.org/)
 
-👉 [Tailwind CSS](https://tailwindcss.com/)
-
 👉 [TypeScript](https://www.typescriptlang.org/)
 
 👉 [ESLint](https://eslint.org/)
