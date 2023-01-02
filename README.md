@@ -6,9 +6,11 @@
 
 👉 [React](https://reactjs.org/)
 
+👉 [TypeScript](https://www.typescriptlang.org/)
+
 👉 [React Router DOM](https://reactrouter.com/)
 
-👉 [TypeScript](https://www.typescriptlang.org/)
+👉 [Redux Toolkit](https://redux-toolkit.js.org/)
 
 👉 [ESLint](https://eslint.org/)
 
