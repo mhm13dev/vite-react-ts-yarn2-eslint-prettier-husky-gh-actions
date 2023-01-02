@@ -19,6 +19,10 @@ module.exports = {
       version: "detect",
     },
   },
+  env: {
+    // Support module syntax in Node.js files.
+    node: true,
+  },
   rules: {
     // Add your own rules here to override ones from the extended configs.
     "react/jsx-uses-react": 2,
