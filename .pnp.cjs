@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.1.0"],\
             ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
+            ["react-content-loader", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:6.2.0"],\
             ["react-dom", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:18.2.0"],\
             ["react-redux", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:8.0.5"],\
             ["react-router-dom", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:6.6.1"],\
@@ -4800,6 +4801,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-content-loader", [\
+        ["npm:6.2.0", {\
+          "packageLocation": "./.yarn/cache/react-content-loader-npm-6.2.0-b695c4c949-a6c33ae62c.zip/node_modules/react-content-loader/",\
+          "packageDependencies": [\
+            ["react-content-loader", "npm:6.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:6.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-content-loader-virtual-e4917ccf93/0/cache/react-content-loader-npm-6.2.0-b695c4c949-a6c33ae62c.zip/node_modules/react-content-loader/",\
+          "packageDependencies": [\
+            ["react-content-loader", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:6.2.0"],\
+            ["@types/react", "npm:18.0.26"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-dom", [\
         ["npm:18.2.0", {\
           "packageLocation": "./.yarn/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
@@ -6083,6 +6106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:13.1.0"],\
             ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
+            ["react-content-loader", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:6.2.0"],\
             ["react-dom", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:18.2.0"],\
             ["react-redux", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:8.0.5"],\
             ["react-router-dom", "virtual:1dc8d4d1d0d28b9d673c5b4c08a015501776e05284e18837427fca58c5ea4cfbc8655e962d9aca1963f404fe4574b52cae0646ecd7bceca3a039f45b863ca2ed#npm:6.6.1"],\
